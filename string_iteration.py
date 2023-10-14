@@ -1,4 +1,7 @@
 name = "Mbiki Waweru"
 
 for i in name:
-    print(i)
+    if i == " ":
+        continue
+    else:
+        print(i)
