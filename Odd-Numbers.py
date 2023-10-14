@@ -1,7 +1,12 @@
 print("Hello World")
 
-n = 1
+# n = 1
 
-while n<=100:
+# while n<=100:
+#     print(n)
+#     n=n+2
+
+for n in reversed(range(1,101,2)):
     print(n)
-    n=n+2
+
+print("Launch!")
