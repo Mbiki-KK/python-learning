@@ -1,16 +1,16 @@
-def hello_world():
-    print("Hello World!")
+# def hello_world():
+#     print("Hello World!")
 
-hello_world()
+# hello_world()
 
-def add(x,y):
-    z = x+y
-    return z
+# def add(x,y):
+#     z = x+y
+#     return z
 
-print(add(1,2))
+# print(add(1,2))
 
 def odd_numbers():
-    for i in range(1,101,2):
+    for i in range(1,100,2):
         print(i)
         
 
